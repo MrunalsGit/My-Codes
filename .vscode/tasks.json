@@ -26,6 +26,23 @@
                 "isDefault": true
             },
             "detail": "Run the compiled executable"
+        },
+        {
+            "label": "Compile to Object File",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-c",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile the current file to an object file"
         }
     ]
 }
