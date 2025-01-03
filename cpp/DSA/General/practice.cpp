@@ -103,13 +103,15 @@ int main(){
     //     cout<< val<< " ";
     // }
 
-    vector <int> arr;
-    int n ;
-    cin >> n >> endl;
+    // vector <int> arr;
+    // int n ;
+    // cin >> n >> endl;
 
-    for (int j = 0; j<n; j++){
-        arr.emplace_back(j+1);
-    }
+    // for (int j = 0; j<n; j++){
+    //     arr.emplace_back(j+1);
+    // }
     
+    int a = 'z' - 97;
+    cout << a;
     
 }
