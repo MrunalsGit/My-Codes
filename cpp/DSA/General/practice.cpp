@@ -111,7 +111,7 @@ int main(){
     //     arr.emplace_back(j+1);
     // }
     
-    int a = 'z' - 97;
-    cout << a;
+    // int arr [100000000] = {1};
+    // cout << arr[0];
     
 }
