@@ -13,7 +13,7 @@ int longestUniqueSubstr(string & s){
 		for(int j=0; j < str.length()-1; j++){
 
 			if (s[i] == str[j]){
-				count = str.length()-1;
+				if (count < str.length()) count = str.length()-1;
 				str = s[i];
 				break;
 			}
