@@ -2,16 +2,21 @@
 using namespace std;
 
 int secSmallest(vector<int> &arr){
-	int smallest = a[0];
+	int smallest = arr[0];
 	int n = arr.size();
-	int sSmallest = MAX_INT();
+	int sSmallest = INT_MAX;
 
 	for (int i = 1; i < n; i++){
-		if (arr[i] < smallest){
+		if (arr[i] < smallest ){
 			sSmallest = smallest;
-			smallest = 
+			smallest = arr[i];
 		}
+		if (arr[i] > smallest && arr[i] < sSmallest){
+			sSmallest = arr[i];
+		}
+
 	}
+	return sSmallest;
 
 }
 
