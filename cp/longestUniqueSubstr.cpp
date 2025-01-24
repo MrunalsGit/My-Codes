@@ -8,8 +8,6 @@ int longestUniqueSubstr(string & s){
 	for (int i =0; i < s.length(); i++){
 		str += s[i];
 
-
-
 		for(int j=0; j < str.length()-1; j++){
 
 			if (s[i] == str[j]){
@@ -20,9 +18,6 @@ int longestUniqueSubstr(string & s){
 
 			if (count < str.length()) count = str.length();
 		}
-
-
-
 
 	}
 
