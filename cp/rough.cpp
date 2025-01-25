@@ -26,9 +26,15 @@ int main (){
     //     cout << i << " " << j << endl;
     // }
 
-    int xorr = 1^2^3^3^4^5^1^4^5;
-    cout << xorr;
+    // int xorr = 1^2^3^3^4^5^1^4^5;
+    // cout << xorr;
  
+    char rev = 'f';
+    string s = "hibye";
+
+    s[1] = rev;
+
+    cout << s;
 
 	
 } 
