@@ -28,9 +28,6 @@ bool checkIfSortedOrRotated(vector <int> & nums){
 	    Reverse(nums, 0, n-1);
     }
 
-    for(auto it : nums) cout << it << " ";
-    cout << endl;
-
     int sorted = 1;
 
     for(int i = 0; i < n-1; i++ ){
