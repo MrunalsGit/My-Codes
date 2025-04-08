@@ -72,5 +72,5 @@ int main (){
 
     int a = 456;
 
-    int b %
+    cout << "check";
 }
