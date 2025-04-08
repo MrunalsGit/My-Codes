@@ -36,6 +36,41 @@ int main (){
 
     // cout << s;
     
-    cout << "hi" ;
+    // cout << "hi" ;
+
+    // vector <int> arr;
+
+    // for(int i = 0; i < 4; i++){
+    //     int temp;
+    //     cin >> temp;
+    //     arr.push_back(temp);
+    // }
+
+
+
+    // for (int i =5; i > 0; i--){
+    //     int didSwap = 0;
+    //     for (int j =0; j < i-1; j++){
+    //         if (arr[j] > arr[j+1]){
+    //             int temp = arr[j];
+    //             arr[j] = arr[j+1];
+    //             arr[j+1] = temp;
+    //             didSwap = 1;
+    //         }
+    //     }
+    //     if (didSwap == 0) break;
+    // }
+
+    // int a = 5;
+
+    // if(a != 4) cout << 1;
 	
+    // string s = "ab";
+    // s.pop_back();
+
+    // cout << s ;
+
+    int a = 456;
+
+    int b %
 }
