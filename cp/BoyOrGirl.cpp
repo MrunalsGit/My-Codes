@@ -13,8 +13,8 @@ int main (){
 		mpp[s[i]]++;
 	}
 
-	int cnt = mpp.size();
 
-	cout << cnt;
-	
+	if (mpp.size() % 2 == 0) cout << "CHAT WITH HER!";
+	else cout << "IGNORE HIM!";
+
 }

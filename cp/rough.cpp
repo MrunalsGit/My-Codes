@@ -70,7 +70,18 @@ int main (){
 
     // cout << s ;
 
-    int a = 456;
+    // int a = 456;
 
-    cout << "check";
+    // cout << "check";
+
+    int a = 1224;
+        map<int,int> mpp;
+        while(a > 0){
+            int temp = a%10;
+            mpp[temp]++;
+            a /= 10;
+        }
+        for(auto i : mpp){
+            cout << i.second << endl;
+        }
 }

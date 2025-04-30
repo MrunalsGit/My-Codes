@@ -17,6 +17,7 @@ int lastRemaining(int n, int i = 1, vector<int> arr = {1,2}){
 	if (i%2 != 0){
 		for (int j = 0; j < arr.size(); j+= 1){
 			arr.erase(arr.begin() + j);
+
 		}
 	}
 	else {
