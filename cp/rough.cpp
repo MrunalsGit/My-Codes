@@ -74,14 +74,17 @@ int main (){
 
     // cout << "check";
 
-    int a = 1224;
-        map<int,int> mpp;
-        while(a > 0){
-            int temp = a%10;
-            mpp[temp]++;
-            a /= 10;
-        }
-        for(auto i : mpp){
-            cout << i.second << endl;
-        }
+    // int a = 1224;
+    //     map<int,int> mpp;
+    //     while(a > 0){
+    //         int temp = a%10;
+    //         mpp[temp]++;
+    //         a /= 10;
+    //     }
+    //     for(auto i : mpp){
+    //         cout << i.second << endl;
+    //     }
+
+    // vector <int> arr[5] = {1};
+    
 }
