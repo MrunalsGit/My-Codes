@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using namespace std;
-
 int main (){
 	
 	int n;
@@ -13,24 +11,33 @@ int main (){
 	getline (cin , a);
 	getline (cin , b);
 
-	// a.erase(remove(a.begin(),a.end(),' '),a.end());
-	// b.erase(remove(b.begin(),b.end(),' '),b.end());
+	unordered_set<string> s;
 
-	unordered_map <int,int> mpp;
+	string c,d;
 
-	for (int i = 0; i < a.size(); i++ ){
-		if(a[i] == ' ') continue;
-		else mpp[a[i]]++;
+	for(int i = 0; i <= a.size(); i++){
+		if (c == "0")continue;
+		else if (a[i] == ' ' || i == a.size()){
+			s.insert(c);
+			c = "";
+		}
+		else c += a[i];
 	}
-	for(int i = 0; i < b.size(); i++){
-		if(b[i] == ' ') continue;
-		else mpp[b[i]]++;
+	for(int i = 0; i <= b.size(); i++){
+		if(c == "0")continue;
+		if (b[i] == ' ' || i == b.size()){
+			s.insert(c);
+			c = "";
+		}
+		else {
+			c += b[i];
+		}
 	}
 
-	for(auto i : mpp){
-		cout << i.first << "  ";
+	for(auto i : s){
+		cout << i << " ";
 	}
 
-	if(mpp.size() == n) cout << "I become the guy.";
+	if(s.size() == n) cout << "I become the guy.";
 	else cout << "Oh, my keyboard!";
 }

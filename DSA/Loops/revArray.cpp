@@ -18,13 +18,11 @@ void revArray(int arr[] , int size){
 int main(){
 
     int n;
-    cout << "Enter n = ";
     cin >>n;
     int arr[n];
 
     for (int i = 0; i<n; i++){
         int j;
-        cout <<"Enter element = ";
         cin >> j;
         arr[i] = j;
     }

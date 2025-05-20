@@ -86,5 +86,24 @@ int main (){
     //     }
 
     // vector <int> arr[5] = {1};
+
+    // vector<int> arr;
+
+    // while (true){
+    //     int temp;
+    //     cin >> temp;
+    //     arr.push_back(temp);
+    // }
+
+    // string a = "hi";
+    // char b = '!';
+
+    // cout << a+b;
+
+    // if(" " == ' ') cout << 1;
+
+    vector <int > arr (5);
+    arr.push_back(6);
+    for(auto i:arr)cout << i;
     
 }
