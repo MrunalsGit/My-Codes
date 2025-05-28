@@ -2,5 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << "Hello !! Learning to upload on GitHub ";
+    int n;
+    cin >> n;
+    cout << "Hello !! Learning to upload on GitHub " << n;;
 }

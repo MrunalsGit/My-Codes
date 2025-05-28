@@ -22,15 +22,13 @@ void revArray(vector <int> & arr, int i, int size ){
 
 int main (){
 
-    int size,i=0;
-    cout << "Enter size = ";
+    int size, i=0;
     cin >> size;
     int arr1[size];
     
 
     for (int j =0; j < size; j++){
         int k;
-        cout << "Enter element = ";
         cin >> k ;
         arr1[j] = k;
     }
