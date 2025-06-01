@@ -102,8 +102,13 @@ int main (){
 
     // if(" " == ' ') cout << 1;
 
-    vector <int > arr (5);
-    arr.push_back(6);
-    for(auto i:arr)cout << i;
+    // vector <int > arr (5);
+    // arr.push_back(6);
+    // for(auto i:arr)cout << i;
+
+    int n;
+    cin >> n;
+
+    cout << n;
     
 }
