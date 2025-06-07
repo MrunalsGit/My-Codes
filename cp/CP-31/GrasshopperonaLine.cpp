@@ -13,7 +13,7 @@ int main (){
 
 		if(check != x/k) cout << 1 << endl << x << endl;
 		else {
-			cout << 2 << endl << x-1 << " \n" << 1 << endl;
+			cout << 2 << endl << x-1 << " " << 1 << endl;
 		}
 
 
