@@ -1,1 +1,4 @@
 *.exe
+# Ignore input and answer files
+*.in
+*.ans
