@@ -1,0 +1,1 @@
+{"name":"Local: checkIfSortrdArray","url":"c:\\Users\\bhama\\Documents\\Codes\\Practice\\DSA\\Array\\checkIfSortrdArray.cpp","tests":[{"id":1750242242552,"input":"5\n1 3 4 2 5","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\bhama\\Documents\\Codes\\Practice\\DSA\\Array\\checkIfSortrdArray.cpp","group":"local","local":true}
